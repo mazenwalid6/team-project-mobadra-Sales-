@@ -1,0 +1,37 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+**/dist/
+**/build/
+
+# Test output
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+**/.github/
+
+**/test/
+**/__tests__/
+**/spec/
+**/example/
+**/examples/
+**/man/
+
+*.tsbuildinfo
